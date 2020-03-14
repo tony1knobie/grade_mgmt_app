@@ -10,7 +10,7 @@ const convert = require('xml-js');
 const App = () => {
 
 
-	let url = "http://192.168.1.55:8080/ReadXML/getJson"
+	let url = "http://localhost:8080/ReadXML/getJson"
 
 	const sendData=()=>{
 		let records ={records: {"record": users}}
